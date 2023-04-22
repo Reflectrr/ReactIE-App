@@ -1,49 +1,46 @@
-'use client';
+"use client";
 
 import React, { useState, useEffect } from "react";
+import { send_file } from "@/utils/service";
 
-export default function FileUpload() {
-  const [inputElement, setInputElement] = useState(null);
-  const [file, setFile] = useState(null);
-  const [uploadedFileName, setUploadedFileName] = useState(null);
+export default function FileUpload({ text, setText, filename, setFilename }) {
+    const [inputElement, setInputElement] = useState(null);
 
-  useEffect(() => {
-    setInputElement(document.getElementById("input-elem"));
-  }, []);
+    useEffect(() => {
+        setInputElement(document.getElementById("input-elem"));
+    }, []);
 
+    const onFileChange = async (event) => {
+        let newFile = event.target.files[0];
+        setFilename(newFile.name);
+        const text = await send_file(newFile);
+        setText(text);
+    };
 
-  const onFileChange = event => {
-    setFile(event.target.files[0])
-    setUploadedFileName(event.target.files[0].name)
-  };
+    const handleUpload = () => {
+        inputElement?.click();
+    };
 
-  const handleUpload = () => {
-    inputElement?.click();
-  };
-
-  if (file) {
-    const formData = new FormData();
-    formData.append(
-      "myFile",
-      file,
-      file.name
+    return (
+        <div className="my-3">
+            <label className="me-3">Choose file: </label>
+            <input
+                id="input-elem"
+                className="d-none"
+                type="file"
+                onChange={onFileChange}
+            />
+            <button
+                onClick={handleUpload}
+                className="btn btn-outline-primary me-3"
+            >
+                {filename ? filename : "Upload"}
+            </button>
+            {filename && !text && (
+                <div className="d-flex justify-content-center">
+                    <span>parsing...</span>
+                </div>
+            )}
+        </div>
     );
-
-    console.log(file);
-
-    // Request made to the backend api
-    // Send formData object
-    // axios.post("api/uploadfile", formData);
-  }
-
-  return (
-    <div className="my-3">
-      <label className="me-3">Choose file: </label>
-      <input id="input-elem" className="d-none" type="file" onChange={onFileChange} />
-      <button onClick={handleUpload} className='btn btn-outline-primary'>
-        {uploadedFileName ? uploadedFileName : "Upload"}
-      </button>
-    </div>
-  );
 }
-
