@@ -5,7 +5,6 @@ import ReactionText from "./ReactionText";
 
 export default function ReactionTable({ reaction, index }) {
     if (!reaction) return null;
-    const reactionEntries = Object.entries(reaction);
     const order = [
         "product",
         "reactants",
@@ -20,6 +19,15 @@ export default function ReactionTable({ reaction, index }) {
     return (
         <>
             <span className="d-flex justify-content-center">
+                <img
+                    src={index % 2 ? "/reaction.png" : "/reaction2.png"}
+                    alt=""
+                    style={{
+                        width: "20px",
+                        height: "20px",
+                    }}
+                    className="me-2"
+                />
                 Reaction #{index}
             </span>
             <Table striped bordered hover>
@@ -39,7 +47,21 @@ export default function ReactionTable({ reaction, index }) {
                                 }
                                 return (
                                     <tr key={`reaction-entry-${index}-${key}`}>
-                                        <th>{key}</th>
+                                        <th>
+                                            <img
+                                                src={`/${key.replace(
+                                                    " ",
+                                                    "_"
+                                                )}.png`}
+                                                alt=""
+                                                style={{
+                                                    width: "20px",
+                                                    height: "20px",
+                                                }}
+                                                className="me-2"
+                                            />
+                                            {key}
+                                        </th>
                                         <td>{reaction[key]}</td>
                                     </tr>
                                 );
