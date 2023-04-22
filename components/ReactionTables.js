@@ -9,6 +9,7 @@ export default function ReactionTables() {
     if (!reactions) return null;
     return (
         <>
+            <h1 className="h3 mb-3">Results from Extraction:</h1>
             <Row>
                 {reactions.map((reaction, reactionIndex) => {
                     // iterate over each reaction in the array

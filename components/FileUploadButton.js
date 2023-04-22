@@ -41,7 +41,8 @@ export default function FileUploadButton() {
 
     return (
         <div className="my-3">
-            <label className="me-3">Choose file: </label>
+            <h1 className="h3">Step 1: Upload Chemistry Paper</h1>
+            <label className="me-3">Choose Chemistry Paper PDF here:</label>
             <input
                 id="input-elem"
                 className="d-none"
@@ -55,8 +56,10 @@ export default function FileUploadButton() {
                 {filename ? filename : "Upload"}
             </button>
             {parsing && (
-                <div className="d-flex justify-content-center">
-                    <span>parsing...</span>
+                <div className="my-3 d-flex justify-content-center">
+                    <span>
+                        Uploading file to server and parsing text contents...
+                    </span>
                 </div>
             )}
         </div>
