@@ -12,12 +12,12 @@ export default function ReactionText({ text, index }) {
                 <td>
                     {open ? (
                         <>
-                            {text}
+                            <span onClick={() => setOpen(!open)}>{text}</span>
                             <div>
                                 <button
                                     className="btn btn-outline-primary"
                                     onClick={() => {
-                                        setOpen(false);
+                                        setOpen(!open);
                                     }}
                                 >
                                     hide text
@@ -26,11 +26,14 @@ export default function ReactionText({ text, index }) {
                         </>
                     ) : (
                         <>
-                            {text.split(" ").slice(0, 15).join(" ") + "...  "}
+                            <span onClick={() => setOpen(!open)}>
+                                {text.split(" ").slice(0, 15).join(" ") +
+                                    "...  "}
+                            </span>
                             <button
                                 className="btn btn-outline-primary"
                                 onClick={() => {
-                                    setOpen(true);
+                                    setOpen(!open);
                                 }}
                             >
                                 show more

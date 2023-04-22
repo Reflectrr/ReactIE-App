@@ -8,12 +8,14 @@ export default function ExtractionButton() {
     const text = usePDFToTextStore((state) => state.text);
     const filename = usePDFToTextStore((state) => state.filename);
     const extracting = useReactIEStore((state) => state.extracting);
+    const reactions = useReactIEStore((state) => state.reactions);
     // grab actions from store
     const setReactions = useReactIEStore((state) => state.setReactions);
     const setExtracting = useReactIEStore((state) => state.setExtracting);
 
     // render nothing if no text
     if (!text) return null;
+    if (reactions) return null;
 
     const onClick = async () => {
         setExtracting(true);
@@ -24,13 +26,18 @@ export default function ExtractionButton() {
     };
     return (
         <>
-            <div className="my-3 d-flex justify-content-center">
-                <button onClick={onClick} className="btn btn-outline-primary">
-                    Start Extraction!
-                </button>
-            </div>
+            {!extracting && (
+                <div className="my-3 d-flex justify-content-center">
+                    <button
+                        onClick={onClick}
+                        className="btn btn-outline-primary"
+                    >
+                        Start Extraction!
+                    </button>
+                </div>
+            )}
             {extracting && (
-                <div className="d-flex justify-content-center">
+                <div className="m-3 d-flex justify-content-center">
                     Extracting... (This may take a minute or two)
                 </div>
             )}
