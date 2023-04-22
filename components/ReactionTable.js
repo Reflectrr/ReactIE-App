@@ -28,9 +28,10 @@ export default function ReactionTable({ reaction, index }) {
                     }}
                     className="me-2"
                 />
-                Reaction #{index}
+                <span>Reaction #{index}</span>
             </span>
-            <Table striped bordered hover>
+
+            <Table bordered striped hover className="mb-5">
                 <tbody>
                     {
                         // parse each pair of reaction information into a table row
@@ -60,7 +61,7 @@ export default function ReactionTable({ reaction, index }) {
                                                 }}
                                                 className="me-2"
                                             />
-                                            {key}
+                                            <span>{key}</span>
                                         </th>
                                         <td>{reaction[key]}</td>
                                     </tr>
@@ -70,7 +71,6 @@ export default function ReactionTable({ reaction, index }) {
                     }
                 </tbody>
             </Table>
-            <div style={{ height: "50px" }}></div>
         </>
     );
 }

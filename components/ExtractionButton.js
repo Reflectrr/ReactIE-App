@@ -37,7 +37,7 @@ export default function ExtractionButton() {
                 </div>
             )}
             {extracting && (
-                <div className="m-3 d-flex justify-content-center">
+                <div className="my-3 d-flex justify-content-center">
                     Extracting... (This may take a minute or two)
                 </div>
             )}
