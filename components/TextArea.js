@@ -9,6 +9,7 @@ export default function TextArea({ text }) {
                 placeholder="Enter text here"
                 value={text}
                 style={{ height: "35vh" }}
+                readOnly
             />
         );
     }

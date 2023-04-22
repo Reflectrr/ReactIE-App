@@ -12,11 +12,15 @@ export default function ReactionTables({ reactions }) {
                     // iterate over each reaction in the array
                     reactionIndex += 1;
                     return (
-                        <Col sm={12} md={6} lg={4}>
+                        <Col
+                            key={`reaction-table-${reactionIndex}-table`}
+                            sm={12}
+                            md={6}
+                            lg={4}
+                        >
                             <ReactionTable
                                 reaction={reaction}
                                 index={reactionIndex}
-                                key={`reaction-table-${reactionIndex}-all`}
                             />
                         </Col>
                     );

@@ -8,7 +8,7 @@ export default function ReactionText({ text, index }) {
     return (
         <>
             <tr key={`reaction-entry-${index}-text}`}>
-                <th>text</th>
+                <th>source text</th>
                 <td>
                     {open ? (
                         <>
