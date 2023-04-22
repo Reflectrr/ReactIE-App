@@ -2,8 +2,10 @@
 
 import ReactionTable from "./ReactionTable";
 import { Row, Col } from "react-bootstrap";
+import { useReactIEStore } from "@/utils/store";
 
-export default function ReactionTables({ reactions }) {
+export default function ReactionTables() {
+    const reactions = useReactIEStore((state) => state.reactions);
     if (!reactions) return null;
     return (
         <>

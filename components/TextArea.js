@@ -1,6 +1,8 @@
 import { FormControl } from "react-bootstrap";
+import { usePDFToTextStore } from "@/utils/store";
 
-export default function TextArea({ text }) {
+export default function TextArea() {
+    const text = usePDFToTextStore((state) => state.text);
     if (text) {
         return (
             <FormControl

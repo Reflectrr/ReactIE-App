@@ -1,9 +1,19 @@
 "use client";
 
+import { usePDFToTextStore } from "@/utils/store";
 import React, { useState, useEffect } from "react";
 import { send_file } from "@/utils/service";
 
-export default function FileUpload({ text, setText, filename, setFilename }) {
+export default function FileUpload() {
+    // grab states from store
+    const filename = usePDFToTextStore((state) => state.filename);
+    const parsing = usePDFToTextStore((state) => state.parsing);
+    // grab actions from store
+    const setText = usePDFToTextStore((state) => state.setText);
+    const setFile = usePDFToTextStore((state) => state.setFile);
+    const setFilename = usePDFToTextStore((state) => state.setFilename);
+    const setParsing = usePDFToTextStore((state) => state.setParsing);
+    // grab input element
     const [inputElement, setInputElement] = useState(null);
 
     useEffect(() => {
@@ -12,8 +22,12 @@ export default function FileUpload({ text, setText, filename, setFilename }) {
 
     const onFileChange = async (event) => {
         let newFile = event.target.files[0];
+        // update store
+        setFile(newFile);
         setFilename(newFile.name);
+        setParsing(true);
         const text = await send_file(newFile);
+        setParsing(false);
         setText(text);
     };
 
@@ -36,7 +50,7 @@ export default function FileUpload({ text, setText, filename, setFilename }) {
             >
                 {filename ? filename : "Upload"}
             </button>
-            {filename && !text && (
+            {parsing && (
                 <div className="d-flex justify-content-center">
                     <span>parsing...</span>
                 </div>
