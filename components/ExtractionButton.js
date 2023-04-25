@@ -22,7 +22,6 @@ export default function ExtractionButton() {
         const res = await get_extraction(filename);
         setExtracting(false);
         setReactions(res);
-        console.log(res);
     };
     return (
         <>
@@ -43,7 +42,7 @@ export default function ExtractionButton() {
             )}
             {extracting && (
                 <>
-                    <div className="my-3 d-flex justify-content-center">
+                    <div className="my-3">
                         Extracting chemical reactions from text... (This takes
                         about a minute)
                         <br />

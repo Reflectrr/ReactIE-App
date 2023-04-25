@@ -8,7 +8,18 @@ export default function ReactionText({ text, index }) {
     return (
         <>
             <tr key={`reaction-entry-${index}-text}`}>
-                <th>source text</th>
+                <th>
+                    <img
+                        src={"/text.png"}
+                        alt=""
+                        style={{
+                            width: "20px",
+                            height: "20px",
+                        }}
+                        className="me-2"
+                    />
+                    <span>source text</span>
+                </th>
                 <td>
                     {open ? (
                         <>

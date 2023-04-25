@@ -23,12 +23,12 @@ export default function ReactionTable({ reaction, index }) {
                     src={index % 2 ? "/reaction.png" : "/reaction2.png"}
                     alt=""
                     style={{
-                        width: "20px",
-                        height: "20px",
+                        width: "30px",
+                        height: "30px",
                     }}
                     className="me-2"
                 />
-                <span>Reaction #{index}</span>
+                <h2 className="h4">Reaction #{index}</h2>
             </span>
 
             <Table bordered striped hover className="mb-5">

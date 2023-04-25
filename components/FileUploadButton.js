@@ -58,7 +58,7 @@ export default function FileUploadButton() {
             {parsing && (
                 <div className="my-3 d-flex justify-content-center">
                     <span>
-                        Uploading file to server and parsing text contents...
+                        Uploading file to server and extracting text contents...
                     </span>
                 </div>
             )}
