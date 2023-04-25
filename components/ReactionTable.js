@@ -61,7 +61,10 @@ export default function ReactionTable({ reaction, index }) {
                                                 }}
                                                 className="me-2"
                                             />
-                                            <span>{key}</span>
+                                            <span>
+                                                {key.charAt(0).toUpperCase() +
+                                                    key.slice(1)}
+                                            </span>
                                         </th>
                                         <td>{reaction[key]}</td>
                                     </tr>

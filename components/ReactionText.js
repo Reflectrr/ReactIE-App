@@ -18,7 +18,7 @@ export default function ReactionText({ text, index }) {
                         }}
                         className="me-2"
                     />
-                    <span>source text</span>
+                    <span>Source text</span>
                 </th>
                 <td>
                     {open ? (
