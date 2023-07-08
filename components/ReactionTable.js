@@ -2,6 +2,7 @@
 
 import { Table } from "react-bootstrap";
 import ReactionText from "./ReactionText";
+import Image from "next/image";
 
 export default function ReactionTable({ reaction, index }) {
     if (!reaction) return null;
@@ -19,13 +20,11 @@ export default function ReactionTable({ reaction, index }) {
     return (
         <>
             <span className="d-flex justify-content-center">
-                <img
+                <Image
                     src={index % 2 ? "/reaction.png" : "/reaction2.png"}
                     alt=""
-                    style={{
-                        width: "30px",
-                        height: "30px",
-                    }}
+                    height={30}
+                    width={30}
                     className="me-2"
                 />
                 <h2 className="h4">Reaction #{index}</h2>
@@ -49,16 +48,14 @@ export default function ReactionTable({ reaction, index }) {
                                 return (
                                     <tr key={`reaction-entry-${index}-${key}`}>
                                         <th>
-                                            <img
+                                            <Image
                                                 src={`/${key.replace(
                                                     " ",
                                                     "_"
                                                 )}.png`}
                                                 alt=""
-                                                style={{
-                                                    width: "20px",
-                                                    height: "20px",
-                                                }}
+                                                width={20}
+                                                height={20}
                                                 className="me-2"
                                             />
                                             <span>

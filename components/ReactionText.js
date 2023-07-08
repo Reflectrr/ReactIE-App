@@ -1,21 +1,20 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function ReactionText({ text, index }) {
-    if (!text) return null;
     const [open, setOpen] = useState(false);
+    if (!text) return null;
     return (
         <>
             <tr key={`reaction-entry-${index}-text}`}>
                 <th>
-                    <img
+                    <Image
+                        width={20}
+                        height={20}
                         src={"/text.png"}
                         alt=""
-                        style={{
-                            width: "20px",
-                            height: "20px",
-                        }}
                         className="me-2"
                     />
                     <span>Source text</span>
