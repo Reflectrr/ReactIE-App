@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const base_url = process.env.URL || "http://localhost:5000";
-// TODO: add path argument to the API endpoint
+console.log(base_url)
+
 export async function get_extraction(filename) {
     if (!filename) {
         return null;
