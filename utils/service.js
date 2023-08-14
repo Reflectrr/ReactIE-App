@@ -1,7 +1,7 @@
 import axios, { HttpStatusCode } from "axios";
 import https from "https";
 
-const base_url = process.env.URL || "https://ec2-3-82-141-249.compute-1.amazonaws.com";
+const base_url = process.env.URL || "http://ec2-3-82-141-249.compute-1.amazonaws.com";
 console.log(base_url)
 
 const instance = axios.create({
