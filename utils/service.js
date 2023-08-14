@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const base_url = process.env.URL || "https://ec2-44-201-103-54.compute-1.amazonaws.com";
+const base_url = process.env.URL || "https://ec2-3-82-141-249.compute-1.amazonaws.com/";
 console.log(base_url)
 
 export async function get_extraction(filename) {
