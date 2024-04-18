@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
-    title: "ReactIE",
+    title: "ReactionMiner",
     description: "Chemical Reaction Extraction from Papers",
 };
 

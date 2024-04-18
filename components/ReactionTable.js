@@ -6,16 +6,23 @@ import Image from "next/image";
 
 export default function ReactionTable({ reaction, index }) {
     if (!reaction) return null;
+    const reactionInfo = reaction.reactionInfo;
+    const reactionText = reaction.reactionText;
     const order = [
-        "product",
-        "reactants",
-        "reaction type",
-        "catalyst",
-        "solvent",
-        "temperature",
-        "time",
-        "yield",
-        "text",
+        "Product",
+        "Reactant",
+        "Catalyst",
+        "Workup reagents",
+        "Solvent",
+        "Temperature",
+        "Atmosphere",
+        "Reaction type",
+        "Time",
+        "Pressure",
+        "PH",
+        "Time to completion",
+        "Yield",
+        "Text",
     ];
     return (
         <>
@@ -35,20 +42,16 @@ export default function ReactionTable({ reaction, index }) {
                     {
                         // parse each pair of reaction information into a table row
                         order.map((key) => {
-                            if (reaction.hasOwnProperty(key)) {
-                                if (key == "text") {
-                                    return (
-                                        <ReactionText
-                                            key={`reaction-entry-${index}-text`}
-                                            text={reaction[key]}
-                                            index={index}
-                                        />
-                                    );
-                                }
+                            if (key == "Text") {
+                                return (
+                                    <ReactionText key={`reaction-entry-${index}-text`} text={reactionText} index={index} />
+                                );
+                            }
+                            if (reactionInfo.hasOwnProperty(key)) {
                                 return (
                                     <tr key={`reaction-entry-${index}-${key}`}>
                                         <th>
-                                            <Image
+                                            {/* <Image
                                                 src={`/${key.replace(
                                                     " ",
                                                     "_"
@@ -57,13 +60,13 @@ export default function ReactionTable({ reaction, index }) {
                                                 width={20}
                                                 height={20}
                                                 className="me-2"
-                                            />
+                                            /> */}
                                             <span>
                                                 {key.charAt(0).toUpperCase() +
                                                     key.slice(1)}
                                             </span>
                                         </th>
-                                        <td>{reaction[key]}</td>
+                                        <td>{reactionInfo[key]}</td>
                                     </tr>
                                 );
                             }
