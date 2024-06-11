@@ -1,0 +1,121 @@
+[
+    {
+        "text": "Propargylic boronic esters also undergo stereospecific cross-coupling reactions, as demonstrated by the Aggarwal group.30 Again, reaction occurs via an SE′ mechanism, which results in an interesting synthesis of chiral allenes where atom-centered chirality is transformed to axial chirality (eq 2). Much like allylic couplings, the reaction takes place with exceptional enantio-specificity.",
+        "reactions": [
+            {
+                "Product": "chiral allenes",
+                "Reactant": "propargylic boronic esters",
+                "Reaction type": "stereospecific cross-coupling"
+            }
+        ]
+    },
+    {
+        "text": "In addition to the π-directed couplings described above, the other major class of chiral boronic esters that can be induced to participate in stereospecific cross-coupling reactions are those that contain amide or ester substituents in proximity to the key C-B bond. Suginome and Ohmura35 were the first to demonstrate this when they showed that boronic ester 31 underwent SM cross-coupling with high levels of enantiospecificity (Scheme 5).",
+        "reactions": [
+            {
+                "Product": "SM cross-coupling product",
+                "Reactant": "boronic ester 31",
+                "Reaction type": "SM cross-coupling"
+            }
+        ]
+    },
+    {
+        "text": "The fact that the coupling occurs at all after removing the coordinating ability of the amide carbonyl is notable, given the general resistance of crowded boronic esters such as 31 to cross-coupling, although the benzylic nature of the substrate certainly assists in the overall transformation.",
+        "reactions": [
+            {
+                "Product": "Cross-coupled product",
+                "Reactant": "Amide carbonyl, boronic ester (31)",
+                "Reaction type": "Cross-coupling"
+            }
+        ]
+    },
+    {
+        "text": "Conversion of the Bdan group to a BF3 substituent after the first coupling was not sufficient to permit coupling with the weakly directing ester group. Instead, this group had to be converted into amide 37, which was then reactive in a second stereospecific (invertive) cross-coupling (Scheme 6) to afford 38.",
+        "reactions": [
+            {
+                "Product": "amide 37",
+                "Reactant": "Bdan group, weakly directing ester group"
+            },
+            {
+                "Product": "38",
+                "Reactant": "amide 37"
+            }
+        ]
+    },
+    {
+        "text": "In 2011, Suginome described the cross-coupling of cyclic boronamide 44, which proceeded in high yield with complete retention of stereochemistry (Scheme 8).43 Since the nascentalcohol is contained within the direct coordination sphere of boron, it may not be considered a formal directing group; however, the ability of this substructure to undergo cross-coupling is certainly notable, since related acetate 46 was unreactive.",
+        "reactions": [
+            {
+                "Product": "cross-coupling product 44",
+                "Reactant": "cyclic boronamide 44",
+                "Yield": "high (cross-coupling product 44)"
+            }
+        ]
+    },
+    {
+        "text": "Due to the difference in rate of reductive elimination between the two diastereomeric complexes, net enrichment of one stereoisomer in the resulting cross-coupled product is observed, rendering the reaction stereoconvergent. Although enantioselectivities remain modest at present (Scheme 13), the development of a novel stereoconvergent manifold for cross-coupling of alkylboranes provides a wealth of new opportunity in this area.",
+        "reactions": [
+            {
+                "Product": "cross-coupled product",
+                "Reactant": "alkylboranes",
+                "Reaction type": "cross-coupling"
+            }
+        ]
+    },
+    {
+        "text": "After the desired coupling reaction, acid hydrolysis was employed to reveal the parent boronic acid which can be used for further cross-coupling.",
+        "reactions": [
+            {
+                "Product": "parent boronic acid",
+                "Reactant": "desired coupling reaction",
+                "Reaction type": "acid hydrolysis"
+            }
+        ]
+    },
+    {
+        "text": "The Burke group demonstrated that iterative Suzuki-Miyaura cross-couplings using MIDA-protected halogenated boronic acid building blocks can be readily accomplished.58b After coupling at the halide of 97 with a reactive organoborane (Scheme 15), hydrolysis of 98 using aqueous base reveals the parent boronic acid 99, which can be used for subsequent cross-coupling reactions.",
+        "reactions": [
+            {
+                "Product": "boronic acid 99",
+                "Reactant": "97, 98"
+            }
+        ]
+    },
+    {
+        "text": "In 2016, the Hoveyda group prepared a molecule with two different boryl substituents and employed it in an iterative selective Suzuki-Miyaura cross-coupling strategy (Scheme 17).62 First, a pinacol boron group was installed by copper-catalyzed enantioselective allylic substitution of allylic phos-phate 100 and bis(pinacolatoboryl)methane. The resulting homoallyl boronic ester 101 was then subjected to hydro-boration with 9-BBN, affording diboron product 102.",
+        "reactions": [
+            {
+                "Product": "homoallyl boronic ester 101",
+                "Reactant": "allylic phos-phate 100, bis(pinacolatoboryl)methane",
+                "Catalyst": "copper",
+                "Reaction type": "enantioselective allylic substitution"
+            },
+            {
+                "Product": "diboron product 102",
+                "Reactant": "homoallyl boronic ester 101",
+                "Reaction type": "hydro-boration"
+            }
+        ]
+    },
+    {
+        "text": "In the presence of a vinyl iodide using Pd(dppf)Cl2 as a catalyst, cross-coupling occurred selectively at the trialkylborane in the presence of the less Lewis-acidic BPin substituent.",
+        "reactions": [
+            {
+                "Product": "cross-coupling product",
+                "Reactant": "vinyl iodide, trialkylborane",
+                "Catalyst": "Pd(dppf)Cl2",
+                "Reaction type": "cross-coupling"
+            }
+        ]
+    },
+    {
+        "text": "Reaction of benzyl trifluoroborate salt 127 and brominated aryl boronic ester 126 under dual-catalytic cross-coupling conditions resulted in selective activation of the sp3-hybridized boronate, affording borylated diarylmethane 128. The pendant boronic ester functionality was preserved in this reaction, and no evidence of biaryl formation or oligomerization through sp2-sp2 cross-coupling was noted.",
+        "reactions": [
+            {
+                "Product": "borylated diarylmethane 128",
+                "Reactant": "benzyl trifluoroborate salt 127, brominated aryl boronic ester 126",
+                "Reaction type": "cross-coupling"
+            }
+        ]
+    }
+]

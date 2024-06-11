@@ -1,0 +1,49 @@
+[
+  {
+    "text": "A one-pot protocol of double Suzuki–Miyaura reactions has been developed for the synthesis of unsymme-trical terphenyls. In the absence of a ligand, potassium bromophenyltrifluoroborate reacts with arylboronic acid and then sequentially with a hetero/aryl bromide by controlling the reaction temperature, providing unsymmetrical p-and m-terphenyl compounds in moderate to good overall yields.",
+    "reactions": [
+      {
+        "Product": "unsymmetrical p- and m-terphenyl compounds",
+        "Reactant": "potassium bromophenyltrifluoroborate, arylboronic acid, hetero/aryl bromide",
+        "Reaction type": "double Suzuki–Miyaura reactions",
+        "Temperature": "protocoling the reaction temperature",
+        "Yield": "moderate to good overall yields (unsymmetrical p-and m-terphenyl compounds)"
+      }
+    ]
+  },
+  {
+    "text": "It was interesting to observe a notable chemo-selectivity, and 1a was transformed into thecorresponding cross-coupled product 1c with an 89% yield, while 1b provided only a 10% yield of product 1d. The high selectivity under this multi-organoboron system revealed that 4-bromobenzaldehyde cross-couples with 1a very fast and most of the base is consumed, which might suppress the hydrolysis of potassium organotrifluoroborates.41",
+    "reactions": [
+      {
+        "Product": "1c",
+        "Reactant": "1a",
+        "Yield": "89% (1c)"
+      },
+      {
+        "Product": "1d",
+        "Reactant": "1b",
+        "Yield": "10% (1d)"
+      }
+    ]
+  },
+  {
+    "text": "An 80% yield of the terphenyl product 2e was achieved at the reaction temperature of 80 °C. We next explored the scope and limitations of this one-pot cross-coupling protocol.",
+    "reactions": [
+      {
+        "Product": "terphenyl product 2e",
+        "Temperature": "80 °C",
+        "Yield": "80% (terphenyl product 2e)"
+      }
+    ]
+  },
+  {
+    "text": "In summary, we have developed a convenient one-pot double Suzuki–Miyaura reaction protocol for the synthesis of unsym-metrical terphenyls. Potassium bromophenyltrifluoroborates underwent chemo-selective cross-coupling with coupling part-ners by controlling the reaction temperature in the absence of any ligand.",
+    "reactions": [
+      {
+        "Product": "unsym-metrical terphenyls",
+        "Reactant": "potassium bromophenyltrifluoroborates, coupling part-ners",
+        "Temperature": "in the absence of any ligand"
+      }
+    ]
+  }
+]

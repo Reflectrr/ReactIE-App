@@ -1,0 +1,130 @@
+[
+  {
+    "text": "Subsequently, compound 1a was treated with oxalyl chloride in DCM solvent at ambient temperature to obtained acid chloride (2a). The compound 2a was combined with the blend of N-vinyl formamide (3a), Et3N as well as a catalytic amount of DMAP in DCM at 0 0C and further stirring at RT for 2 h to provide compound 4a and it was forwarded to next step as such.",
+    "reactions": [
+      {
+        "Product": "acid chloride (2a)",
+        "Reactant": "compound 1a, oxalyl chloride",
+        "Solvent": "DCM",
+        "Temperature": "ambient temperature"
+      },
+      {
+        "Product": "compound 4a",
+        "Reactant": "compound 2a, N-vinyl formamide (3a), Et3N",
+        "Catalyst": "DMAP",
+        "Solvent": "DCM",
+        "Temperature": "0 0C, RT",
+        "Time": "2 h"
+      }
+    ]
+  },
+  {
+    "text": "Afterwards, the deprotection of formyl group of compound 4a was acquired by employing n-propylamine in DCM at room temperature.",
+    "reactions": [
+      {
+        "Product": "4b",
+        "Reactant": "4a, n-propylamine",
+        "Solvent": "DCM",
+        "Temperature": "room"
+      }
+    ]
+  },
+  {
+    "text": "Further, compound 5a was subjected to bromination reaction by employing N-bromosuccinimide in DCM solvent at room temperature, however an expected yield was not obtained and many side products were obseved. Therefore we modified the reaction condition by taking 1 equ. of N-bromosuccinimide as well as 1.1 equ. of Et3N at 0 0C which lead to a higher yield of compound 6a.",
+    "reactions": [
+      {
+        "Product": "compound 6a",
+        "Reactant": "compound 5a, N-bromosuccinimide, Et3N",
+        "Solvent": "DCM",
+        "Temperature": "0 0C",
+        "Yield": "higher (compound 6a)"
+      }
+    ]
+  },
+  {
+    "text": "The confirmation of compound 13 was performed by LC–MS analysis and used crude compound 13 without purification to next step Suzuki coupling reaction. Further, to obtain the Lansiumamide A-phenylalanine amino acid hybrid (14), we have tried several conditions of Suzuki coupling reactions were tried by changing Pd catalysts, bases, solvents and temperature. The subsequent efforts in conducting different conditions turned out to be ineffective.",
+    "reactions": [
+      {
+        "Product": "Lansiumamide A-phenylalanine amino acid hybrid (14)",
+        "Reactant": "compound 13 (crude)",
+        "Catalyst": "Pd catalysts",
+        "Solvent": "bases, solvents",
+        "Reaction type": "Suzuki coupling",
+        "Temperature": "changing"
+      }
+    ]
+  },
+  {
+    "text": "Finally, the compound 14 was obtained in a significant yield by using the compounds 9a as well as compound 13 in the presence of PdCl2dppf, K3PO4 in 1,4-dioxane:H2O at room temperature. Compound 14 was charac-terized by 1H and 13 C NMR spectroscopy, FTIR and HRMS.[26]Having completed the synthesis of the Lansiumamide-amino acid hybrid, we decided to turn our attention to the synthesize Alatamide-phenylalanine amino acid hybrid (15).",
+    "reactions": [
+      {
+        "Product": "14",
+        "Reactant": "9a, 13",
+        "Catalyst": "PdCl2dppf, K3PO4",
+        "Solvent": "1,4-dioxane:H2O",
+        "Temperature": "room",
+        "Yield": "significant (14)"
+      }
+    ]
+  },
+  {
+    "text": "Experimental Procedure for the Preparation of N-((Z)-2-bromovinyl) cinnamamide (6a):To a stirred solution of compound 5a (0.50 g, 2.89 mmol) in DCM (10 mL) were added Et3N(0.45 mL, 3.17 mmol) and N-Bromosuccinimide (0.50 g, 2.89 mmol) under N2 atm at 0 oC andthe reaction mixture was stirred at RT for 1h. TLC (20% Ethyl acetate in petroleum ether) waswas added to the reaction mixture, which was subsequently extracted with DCM (2×100 mL).",
+    "reactions": [
+      {
+        "Product": "N-((Z)-2-bromovinyl)cinnamamide (6a)",
+        "Reactant": "compound 5a, Et3N, N-Bromosuccinimide",
+        "Solvent": "DCM",
+        "Atmosphere": "N2 atm",
+        "Temperature": "0 oC, room temperature",
+        "Time": "1 hour"
+      }
+    ]
+  },
+  {
+    "text": "The progress of thereaction was monitored by TLC (30% Ethyl acetate in petroleum ether) showed completion ofthe reaction. After completion of the reaction, water (50 mL) was added to the reaction mixtureand it was extracted with ethyl acetate (2×50 mL). Organic layers were combined, washed withto afford crude compound which was purified by silica gel (60-120 mesh) columncompound 14 (0.05 g, 16%) as a yellow solid.",
+    "reactions": [
+      {
+        "Product": "compound 14",
+        "Workup reagents": "water, ethyl acetate, silica gel",
+        "Solvent": "petroleum ether, ethyl acetate",
+        "Yield": "16% (compound 14)",
+        "Procedure": "addition, extraction, washing, combining, purification by column"
+      }
+    ]
+  },
+  {
+    "text": "After completion of the reaction; water (100 mL) was added to thereaction mixture and extracted with DCM (2×50 mL). Combined organic layers were washedwith water, brine and dried over Na2SO4, evaporated the solvents under reduced pressure toafford the crude compound which was purified by silica gel (60-120 mesh) columncompound 8b (0.33 g, 55%) as solid.",
+    "reactions": [
+      {
+        "Product": "compound 8b",
+        "Workup reagents": "water, brine, Na2SO4, silica gel",
+        "Solvent": "DCM",
+        "Yield": "55% (compound 8b)"
+      }
+    ]
+  },
+  {
+    "text": "Combined organic layers were washed with water, brine and dried over Na2SO4, evaporatedthe solvents under reduced pressure to afford crude compound which was purified by silica gelafford compound 15 (0.18 g, 87%) as a light brown solid.",
+    "reactions": [
+      {
+        "Product": "compound 15",
+        "Workup reagents": "water, brine, Na2SO4, silica gel",
+        "Yield": "87% (compound 15)"
+      }
+    ]
+  },
+  {
+    "text": "Experimental Procedure for the Preparation of methyl 3-(4-bromophenyl)-2-(tert-butoxycarbonylamino) propanoate (12): To a stirred solution of compound 11 (1.4 g, 4.73 mmol) in DCM (20 mL) under N2 atm wasadded Et3N (1.7 mL, 11.88 mmol) followed by Boc anhydride (1.14 g, 5.22 mmol) at 0 oC andstirred the reaction mixture at RT for 16h. The progress of the reaction was monitored by TLC(20% Ethyl acetate in petroleum ether) showed completion of the reaction. After completionof the reaction; water (100 mL) was added to reaction mixture and extracted with Ethyl acetate(2×50 mL). Combined organic layers were washed with water, brine and dried over Na2SO4n-pentane to give the pure compound 12 (1.6 g, 95%) as an off white solid.",
+    "reactions": [
+      {
+        "Product": "methyl 3-(4-bromophenyl)-2-(tert-butoxycarbonylamino) propanoate (12)",
+        "Reactant": "compound 11, Et3N, Boc anhydride",
+        "Solvent": "DCM",
+        "Atmosphere": "N2",
+        "Temperature": "0 oC to RT",
+        "Time": "16h",
+        "Yield": "95% (methyl 3-(4-bromophenyl)-2-(tert-butoxycarbonylamino) propanoate (12))"
+      }
+    ]
+  }
+]

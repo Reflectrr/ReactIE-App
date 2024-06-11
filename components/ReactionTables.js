@@ -1,11 +1,27 @@
 "use client";
 
+import { useEffect } from "react";
 import ReactionTable from "./ReactionTable";
 import { Row, Col } from "react-bootstrap";
-import { useReactIEStore } from "@/utils/store";
+import { useReactIEStore, setrea } from "@/utils/store";
 
 export default function ReactionTables() {
+
+    const setReactions = useReactIEStore((state) => state.setReactions);
+    const setFilename = useReactIEStore((state) => state.setFilename);
+
     const reactions = useReactIEStore((state) => state.reactions);
+    const filename = useReactIEStore((state) => state.filename);
+
+    useEffect(() => {
+        const fetchData = async () => {
+            const res = await fetch(`/results/${filename}`);
+            const data = await res.json();
+            setReactions(data);
+        };
+        fetchData();
+    }, [filename]);
+
     if (!reactions) return null;
     const singleReactions = [];
     for (let i = 0; i < reactions.length; i++) {

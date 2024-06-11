@@ -2,7 +2,7 @@ import axios, { HttpStatusCode } from "axios";
 import https from "https";
 
 const base_url = process.env.URL || "http://localhost:5000";
-console.log(base_url)
+console.log("base_url:", base_url)
 
 const instance = axios.create({
     httpsAgent: new https.Agent({

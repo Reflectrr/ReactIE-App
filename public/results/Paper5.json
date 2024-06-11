@@ -1,0 +1,67 @@
+[
+    {
+        "text": "Herein, we report such a method: a nickel-catalyzed cross-coupling reaction of aryl-and heteroarylboronic acids with chromene acetals. The method represents a mechanistic alternative to nucleophilic acetal substitution that enables access to a broad range of previously inacces-sible C-2 substituted chromenes by late-stage diversifica-tion of a common scaffold.",
+        "reactions": [
+            {
+                "Product": "C-2 substituted chromenes",
+                "Reactant": "aryl-and heteroarylboronic acids, chromene acetals",
+                "Catalyst": "nickel",
+                "Reaction type": "nickel-catalyzed cross-coupling"
+            }
+        ]
+    },
+    {
+        "text": "Inspired by these findings, we decided to pursue the possibility that boronic acid activation22 of an allylic acetal in the absence of a base would encourage selective oxidative addition and trans-metalation. A particularly attractive aspect of this ap-proach is that it would afford a neutral method for the synthesis of allylic ethers fromwidely available and stable precursors.23In an initial demonstration of this hypothesis, we chose to evaluate chromene-based acetals for the preparation of 2-substituted 2H-chromenes (Scheme 1). Subjecting 2-ethoxy-2H-chromene 1a to 10mol%Ni(cod)2, 10mol% PPh3, and 2 equiv of p-fluorophenyl boronic acid at rt in dioxane/t-AmOH as solvent afforded the desired cross-coupled heterocycle 3 in 92% yield (Figure 2). In the absence of the Ni catalyst, 3 was not observed, even when the reaction was conducted at elevated temperatures (<5% yield).",
+        "reactions": [
+            {
+                "Product": "3",
+                "Reactant": "2-ethoxy-2H-chromene 1a, p-fluorophenyl boronic acid",
+                "Catalyst": "Ni(cod)2, PPh3",
+                "Solvent": "dioxane/t-AmOH",
+                "Reaction type": "cross-coupled heterocycle synthesis",
+                "Temperature": "rt",
+                "Yield": "92% (3)"
+            }
+        ]
+    },
+    {
+        "text": "Notably, aryl chlorides are well tolerated on both reaction partners, allowing for a direct entry toward the antiviral BW683C and providing handles for further func-tionalization by metal-catalyzed cross-coupling (35).",
+        "reactions": [
+            {
+                "Product": "antiviral BW683C",
+                "Reactant": "aryl chlorides"
+            }
+        ]
+    },
+    {
+        "text": "In conclusion, we have reported a modular synthesis of 2-aryl and 2-heteroaryl 2H-chromene derivatives from readily available chromene acetals that is characterized by a broad scope, mild conditions, and an inexpensive metal/ligand system. The reaction also represents the first example of a transition-metal-catalyzed cross-coupling reaction between allylic acetals and boronic acids.",
+        "reactions": [
+            {
+                "Product": "2-aryl and 2-heteroaryl 2H-chromene derivatives",
+                "Reactant": "chromene acetals, allylic acetals, boronic acids",
+                "Catalyst": "transition metal",
+                "Reaction type": "cross-coupling"
+            }
+        ]
+    },
+    {
+        "text": "Nickel-Catalyzed Cross-Coupling of Chromene Acetals and Boronic",
+        "reactions": [
+            {
+                "Product": "Cross-Coupling product",
+                "Reactant": "Chromene acetals, boronic acids",
+                "Catalyst": "Nickel catalyst",
+                "Reaction type": "Nickel-catalyzed cross-coupling"
+            }
+        ]
+    },
+    {
+        "text": "The catalyst solution was then added via syringe and the resulting orange/yellow solution stirred at the appropriate temperature (r.t., 40 °C, or 100 °C) until complete conversion of 2-ethoxy-2H-chromene or stagnation was observed by LCMS.",
+        "reactions": [
+            {
+                "Product": "2-ethoxy-2H-chromene",
+                "Temperature": "40 °C, 100 °C"
+            }
+        ]
+    }
+]

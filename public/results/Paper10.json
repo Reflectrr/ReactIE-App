@@ -1,0 +1,74 @@
+[
+  {
+    "text": "Suzuki-Miyaura Cross-Coupling of 2‑Pyridyl Trimethylammonium Salts by N-C Activation Catalyzed by Air-and Moisture-Stable Pd-NHC Precatalysts: Application to the Discovery of Agrochemicals",
+    "reactions": [
+      {
+        "Product": "Agrochemicals",
+        "Reactant": "2‑Pyridyl Trimethylammonium Salts, N-C Activation",
+        "Catalyst": "Pd-NHC Precatalysts",
+        "Reaction type": "Suzuki-Miyaura Cross-Coupling"
+      }
+    ]
+  },
+  {
+    "text": "The solventand wash with ethyl acetate to afford the (pyridin-2-yl)trimethylammonium salts. 1H NMR, 13CNMR, and 19F NMR data for all (pyridin-2-yl)trimethylammonium salts are given in the sectionN,N,N-Trimethylpyridin-2-aminium trifluoromethanesulfonate (1a)According to the general procedure, the reaction of N,N-dimethylpyridin-2-amine (5.0 mmol)and methyl triflate (1.3 equiv) in CH2Cl2 (1.0 M) for 15 h at room temperature, afforded the titlecompound in 52% yield (0.75 g).",
+    "reactions": [
+      {
+        "Product": "N,N,N-Trimethylpyridin-2-aminium trifluoromethanesulfonate (1a)",
+        "Reactant": "N,N-dimethylpyridin-2-amine, methyl triflate",
+        "Solvent": "CH2Cl2",
+        "Temperature": "room temperature",
+        "Time": "15 h",
+        "Yield": "52% (N,N,N-Trimethylpyridin-2-aminium trifluoromethanesulfonate (1a))"
+      }
+    ]
+  },
+  {
+    "text": "White solid. 1H NMR (500 MHz, DMSO) δ 8.70 – 8.69 (m,1H), 8.27 – 8.23 (m, 1H), 8.12 (dd, J = 8.4, 4.4 Hz, 1H), 7.73 (dt, J = 7.6, 4.5 Hz, 1H), 3.64 (d, J= 5.0 Hz, 9H). 13C NMR (126 MHz, DMSO) δ 157.1, 149.1, 141.5, 126.7, 121.1 (d, J = 322.0Hz), 115.5, 54.9. 19F NMR (471 MHz, DMSO) δ -77.86. The characterization data matchedN,N,N,6-Tetramethylpyridin-2-aminium trifluoromethanesulfonate (1b)According to the general procedure, the reaction of N,N,6-trimethylpyridin-2-amine (5.0 mmol)and methyl triflate (1.3 equiv) in CH2Cl2 (1.0 M) for 15 h at room temperature, afforded the titlecompound in 55% yield (0.82 g).",
+    "reactions": [
+      {
+        "Product": "N,N,N,6-Tetramethylpyridin-2-aminium trifluoromethanesulfonate (1b)",
+        "Reactant": "N,N,6-trimethylpyridin-2-amine, methyl triflate",
+        "Solvent": "CH2Cl2",
+        "Temperature": "room",
+        "Time": "15 h",
+        "Yield": "55% (N,N,N,6-Tetramethylpyridin-2-aminium trifluoromethanesulfonate (1b))"
+      }
+    ]
+  },
+  {
+    "text": "HRMS Calcd for C9H15N2O [M-OTf]+:N,N,N-Trimethyl-4-(trifluoromethyl)pyridin-2-aminium trifluoromethanesulfonate (1e)Suzuki–Miyaura Cross-Coupling of 2-Pyridyl Ammonium Salts by N–C Activation Hu et al. S8According to the general procedure, the reaction ofN,N-dimethyl-4-(trifluoromethyl)pyridin-2-amine (5.0 mmol) and methyl triflate (1.3 equiv) in CH2Cl2 (1.0 M) for 15 h at room temperature,afforded the title compound in 60% yield (1.07 g).",
+    "reactions": [
+      {
+        "Product": "N,N-dimethyl-4-(trifluoromethyl)pyridin-2-aminium trifluoromethanesulfonate (1e)",
+        "Reactant": "N,N-dimethyl-4-(trifluoromethyl)pyridin-2-amine, methyl triflate",
+        "Solvent": "CH2Cl2",
+        "Temperature": "room temperature",
+        "Time": "15 h",
+        "Yield": "60% (N,N-dimethyl-4-(trifluoromethyl)pyridin-2-aminium trifluoromethanesulfonate (1e))"
+      }
+    ]
+  },
+  {
+    "text": "After theindicated time, the reaction mixture was cooled down to room temperature, diluted with EtOAc(20 mL), filtered, and concentrated. Purification by chromatography on silica gel(EtOAc/petroleum ether = 1:10) afforded methyl 4-(6-(dimethylamino)pyridin-3-yl)benzoatewith 98% yield. (2) An oven-dried vial equipped with a stir bar was charged with methyl4-(6-(dimethylamino)pyridin-3-yl)benzoate (0.8 mmol, 1.0 equiv) and CH2Cl2",
+    "reactions": [
+      {
+        "Product": "methyl 4-(6-(dimethylamino)pyridin-3-yl)benzoate",
+        "Reaction type": "Purification by chromatography",
+        "Yield": "98% (methyl 4-(6-(dimethylamino)pyridin-3-yl)benzoate)"
+      }
+    ]
+  },
+  {
+    "text": "Dioxane (0.2 M) and water (5.0 equiv) were added with vigorous stirring at roomtemperature, the reaction mixture was placed in a preheated oil bath at 80 °C and stirred for 8 h.",
+    "reactions": [
+      {
+        "Product": "intermediate",
+        "Reactant": "dioxane, water",
+        "Solvent": "dioxane",
+        "Temperature": "80 °C",
+        "Time": "8 h"
+      }
+    ]
+  }
+]

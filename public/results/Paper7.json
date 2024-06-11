@@ -1,0 +1,23 @@
+[
+  {
+    "text": "The comonomer 1 was synthesized starting from 4,7-bis(8-bromonaphthalen-1-yl)benzo[c][1,2,5]thiadizole [26,29] through the Miyaura borylation reaction in a yield of 65%.",
+    "reactions": [
+      {
+        "Product": "comonomer 1",
+        "Reactant": "4,7-bis(8-bromonaphthalen-1-yl)benzo[c][1,2,5]thiadizole [26,29]",
+        "Reaction type": "Miyaura borylation reaction",
+        "Yield": "65%"
+      }
+    ]
+  },
+  {
+    "text": "Methylation/ethylation of naphthalene-1,8-diol, followed by bromination with NBS in the presence of pyridine, afforded the target monomers 5 and 6 with a yield of 60% and 75%, respectively",
+    "reactions": [
+      {
+        "Product": "monomers 5 and 6",
+        "Reactant": "naphthalene-1,8-diol, NBS, pyridine",
+        "Yield": " 60% and 75%"
+      }
+    ]
+  }
+]

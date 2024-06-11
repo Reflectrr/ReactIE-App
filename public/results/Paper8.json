@@ -1,0 +1,93 @@
+[
+    {
+        "text": "The Suzuki–Miyaura coupling of aryl chlorides has been reported to occur with myriad catalysts[8] including ones that operate at low levels of catalyst and at room temperature. In order to gauge the performance of our new ligand, we decided to employ a moderately hindered substrate combination as a test case: the reaction of 1-chloro-2,6-dimethylbenzene with 2-methyl-phenyl boronic acid to form a biaryl that possesses three substituents ortho to the aryl–aryl connection [Eq.",
+        "reactions": [
+            {
+                "Product": "biaryl that possesses three substituents ortho to the aryl–aryl connection",
+                "Reactant": "1-chloro-2,6-dimethylbenzene, 2-methyl-phenyl boronic acid",
+                "Catalyst": "myriad catalysts, low-activity level",
+                "Reaction type": "Suzuki–Miyaura coupling",
+                "Temperature": "room temperature"
+            }
+        ]
+    },
+    {
+        "text": "The reaction of phenyl boronic acid can be carried out with 0.005% Pd and a L:Pd ratio of 2.5:1. Replacing the anhydrous base with powdered K3PO4·H2O and using a L:Pd ratio of 5:1 permitted efficient cross-coupling at 0.003% (30 ppm) Pd, which corresponds to a turnover number (TON) of over 31000 for this reaction.",
+        "reactions": [
+            {
+                "Product": "cross-coupling product",
+                "Reactant": "phenyl boronic acid",
+                "Catalyst": "0.005% Pd",
+                "Yield": "over 31000 (cross-coupling product)"
+            },
+            {
+                "Product": "cross-coupling product",
+                "Reactant": "phenyl boronic acid",
+                "Catalyst": "0.003% Pd",
+                "Yield": "over 31000 (cross-coupling product)"
+            }
+        ]
+    },
+    {
+        "text": "Thus, this catalyst system shows excellent levels of activity even for the reactions of 2,6-disubstituted aryl chlorides as well as with easier substrates. This new catalyst system was also found to be remarkably active for the cross-coupling of unactivated aryl bromides with 2-methylphenyl boronic acid (Table 2). The reaction can be carried out with 10 ppm Pd in 90 min at 110 8C to give a 98% yield of isolated product (Table 2, entry 1). Decreasing the quantity of catalyst to 5 ppm, the process can be carried out at 100 8C in 24 h in 89% yield.",
+        "reactions": [
+            {
+                "Product": "isolated product",
+                "Reactant": "unactivated aryl bromides, 2-methylphenyl boronic acid",
+                "Catalyst": "Pd",
+                "Temperature": "110 8C",
+                "Time": "90 min",
+                "Yield": "98% (isolated product)"
+            },
+            {
+                "Product": "isolated product",
+                "Reactant": "unactivated aryl bromides, 2-methylphenyl boronic acid",
+                "Catalyst": "Pd",
+                "Temperature": "100 8C",
+                "Time": "24 h",
+                "Yield": "89% (isolated product)"
+            }
+        ]
+    },
+    {
+        "text": "We found that for the coupling of 2-bromomesitylene with 2,6-dimethylphenyl boronic acid (4), the reaction rate and yield of the coupling product was nearly identical using either 1 or 3 ; with 4% Pd, the coupling processes provided an 82% yield of isolated product in 18 h at 110 8C (Table 3, entry 1). Another challenging process involved the combination of 4 and very electron-rich 2,6-dimethoxybro-mobenzene which proceeded in 86% yield (Table 3, entry 2). We next investigated whether 2,4,6-triisopropylbromoben-zene could be utilized as a substrate.",
+        "reactions": [
+            {
+                "Product": "coupling product",
+                "Reactant": "2-bromomesitylene, 2,6-dimethylphenyl boronic acid (4)",
+                "Catalyst": "4% Pd",
+                "Reaction type": "coupling",
+                "Temperature": "110 °C",
+                "Time": "18 h",
+                "Yield": "82% (coupling product)"
+            },
+            {
+                "Product": "coupling product",
+                "Reactant": "2,6-dimethoxybro-mobenzene",
+                "Yield": "86% (coupling product)"
+            }
+        ]
+    },
+    {
+        "text": "Our results for the room-temperature Suzuki–Miyaura couplings using ligand 1 are shown in Table 5. In preliminary experiments to gener-ate biaryl products using a 2:1 L:Pd ratio, only low conversions of thestarting aryl chlorides were observed. How-ever, adjusting the L:Pd ratio to 1:1 dra-matically accelerated the reaction and allowed smooth cross-coupling at room temperature.",
+        "reactions": [
+            {
+                "Product": "biaryl products",
+                "Reactant": "aryl chlorides",
+                "Catalyst": "Pd",
+                "Temperature": "room temperature",
+                "Yield": "smooth cross-coupling"
+            }
+        ]
+    },
+    {
+        "text": "1A Rationally Designed Universal Catalyst forthe Suzuki-Miyaura Reaction.",
+        "reactions": [
+            {
+                "Product": "Suzuki-Miyaura product",
+                "Catalyst": "Universal catalyst",
+                "Reaction type": "Suzuki-Miyaura reaction"
+            }
+        ]
+    }
+]
