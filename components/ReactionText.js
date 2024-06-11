@@ -10,13 +10,13 @@ export default function ReactionText({ text, index }) {
         <>
             <tr key={`reaction-entry-${index}-text}`}>
                 <th>
-                    <Image
+                    {/* <Image
                         width={20}
                         height={20}
                         src={"/text.png"}
                         alt=""
                         className="me-2"
-                    />
+                    /> */}
                     <span>Source text</span>
                 </th>
                 <td>
